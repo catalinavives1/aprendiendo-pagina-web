@@ -1,19 +1,34 @@
-/* Paleta de colores */
+/* -------- IMPORTAR TIPOGRAFÍAS GOOGLE FONTS -------- */
+@import url('https://fonts.googleapis.com/css2?family=April+Fatface&family=Dancing+Script:wght@400;600&display=swap');
+
+/* ------------- PALETA DE COLORES ------------------- */
 :root {
     --verde-oscuro: #7A9046;
     --amarillo: #D1D983;
     --cafe: #8B6B4A;
 }
 
-/* Reset básico */
+/* ----------- TIPOGRAFÍAS --------------------------- */
+/* Títulos → April Fatface */
+/* Texto → Dancing Script */
+
+h1, h2, h3, header, nav a {
+    font-family: 'April Fatface', serif;
+}
+
+body, p, section, footer {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+/* ----------- RESET BÁSICO --------------------------- */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
     background-color: #fff;
     color: #333;
 }
 
-/* Header */
+/* ---------------- HEADER ----------------------------- */
 header {
     background-color: var(--verde-oscuro);
     color: white;
@@ -21,17 +36,21 @@ header {
     text-align: center;
 }
 
-/* Navegación */
+/* ---------------- NAVEGACIÓN ------------------------- */
 nav {
     background-color: var(--cafe);
 }
 
+/* ★★★ BLOQUE UNIDO Y CORREGIDO ★★★ */
 nav ul {
     list-style: none;
     margin: 0;
     padding: 10px;
-    display: flex;
-    gap: 20px;
+
+    display: flex;                    /* Activa el modo fila */
+    justify-content: space-evenly;    /* Distribución uniforme */
+    width: 100%;
+    text-align: center;
 }
 
 nav a {
@@ -40,7 +59,7 @@ nav a {
     font-weight: bold;
 }
 
-/* Secciones */
+/* ---------------- SECCIONES -------------------------- */
 section {
     padding: 40px 20px;
     border-bottom: 1px solid var(--amarillo);
@@ -50,7 +69,7 @@ section h2 {
     color: var(--verde-oscuro);
 }
 
-/* Visualización (espacio para imágenes) */
+/* ------------- ESPACIO PARA VISUALIZACIONES ---------- */
 .visualizacion {
     border: 2px dashed var(--verde-oscuro);
     padding: 30px;
@@ -60,7 +79,7 @@ section h2 {
     background-color: var(--amarillo);
 }
 
-/* Footer */
+/* ---------------- FOOTER ----------------------------- */
 footer {
     background-color: var(--cafe);
     color: white;
