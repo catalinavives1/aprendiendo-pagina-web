@@ -36,6 +36,23 @@ header {
     text-align: center;
 }
 
+/* ----------- TÍTULO PRINCIPAL PERSONALIZADO ----------- */
+
+/* h1 pequeño (EL BOOM DEL) */
+header h1 {
+    font-size: 45px;     /* más pequeño */
+    margin: 0;
+    letter-spacing: 2px; 
+}
+
+/* h2 grande y protagonista (PISTACHO) */
+header h2 {
+    font-size: 100px;    /* MUY grande */
+    margin: 0;
+    line-height: 0.9;
+    color: var(--amarillo);
+}
+
 /* ---------------- NAVEGACIÓN ------------------------- */
 nav {
     background-color: var(--cafe);
@@ -70,14 +87,14 @@ section h2 {
     color: var(--verde-oscuro);
 }
 
-/* 🔥🔥🔥 IMAGEN FULL-WIDTH DEL COLLAGE 🔥🔥🔥 */
+/* IMAGEN FULL-WIDTH DEL COLLAGE  */
 .header-img {
-    width: 100%;          /* ocupa todo el ancho */
-    height: auto;         /* mantiene proporción */
-    display: block;       /* elimina espacios extra */
-    margin: 0;            /* sin márgenes */
-    border-radius: 0;     /* completamente recta */
-    object-fit: cover;    /* se adapta al contenedor */
+    width: 100%;          
+    height: auto;         
+    display: block;       
+    margin: 0;           
+    border-radius: 0;     
+    object-fit: cover;    
 }
 
 /* ------------- ESPACIO PARA VISUALIZACIONES ---------- */
