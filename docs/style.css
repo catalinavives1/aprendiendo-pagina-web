@@ -10,7 +10,7 @@
 
 /* ----------- TIPOGRAFÍAS --------------------------- */
 /* Títulos → April Fatface */
-/* Texto → Lato */
+/* Textos → Lato */
 
 h1, h2, h3, header, nav a {
     font-family: 'April Fatface', serif;
@@ -47,8 +47,8 @@ nav ul {
     margin: 0;
     padding: 10px;
 
-    display: flex;                   
-    justify-content: space-evenly;   
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
     text-align: center;
 }
@@ -68,6 +68,16 @@ section {
 
 section h2 {
     color: var(--verde-oscuro);
+}
+
+/* 🔥🔥🔥 IMAGEN FULL-WIDTH DEL COLLAGE 🔥🔥🔥 */
+.header-img {
+    width: 100%;          /* ocupa todo el ancho */
+    height: auto;         /* mantiene proporción */
+    display: block;       /* elimina espacios extra */
+    margin: 0;            /* sin márgenes */
+    border-radius: 0;     /* completamente recta */
+    object-fit: cover;    /* se adapta al contenedor */
 }
 
 /* ------------- ESPACIO PARA VISUALIZACIONES ---------- */
