@@ -1,5 +1,5 @@
 /* -------- IMPORTAR TIPOGRAFÍAS GOOGLE FONTS -------- */
-@import url('https://fonts.googleapis.com/css2?family=April+Fatface&family=Dancing+Script:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=April+Fatface&family=Lato:wght@300;400;700&display=swap');
 
 /* ------------- PALETA DE COLORES ------------------- */
 :root {
@@ -10,14 +10,14 @@
 
 /* ----------- TIPOGRAFÍAS --------------------------- */
 /* Títulos → April Fatface */
-/* Texto → Dancing Script */
+/* Texto → Lato */
 
 h1, h2, h3, header, nav a {
     font-family: 'April Fatface', serif;
 }
 
 body, p, section, footer {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
 }
 
@@ -47,8 +47,8 @@ nav ul {
     margin: 0;
     padding: 10px;
 
-    display: flex;                    /* Activa el modo fila */
-    justify-content: space-evenly;    /* Distribución uniforme */
+    display: flex;                   
+    justify-content: space-evenly;   
     width: 100%;
     text-align: center;
 }
@@ -57,6 +57,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-family: 'April Fatface', serif;
 }
 
 /* ---------------- SECCIONES -------------------------- */
